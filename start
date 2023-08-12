@@ -1,0 +1,20 @@
+function Callback(answer)
+    if answer == "copy discord name" then
+        setclipboard("v0id__z")
+    elseif answer == "go ahead" then
+        
+    end
+end
+
+local Bindable = Instance.new("BindableFunction")
+Bindable.OnInvoke = Callback
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "script";
+    Text = "made by v0id";
+    Duration = "math.huge";
+    Button1 = "copy discord name";
+    Button2 = "go ahead";
+    Icon = nil;
+    Callback = Bindable
+})
