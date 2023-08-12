@@ -1,9 +1,9 @@
 function Callback(answer)
     if answer == "copy discord name" then
         setclipboard("v0id__z")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/icanthearyoufroggy/UNCEnvCheck/main/mainscript"), true)()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/icanthearyoufroggy/UNCEnvCheck/main/lua1"), true)()
     elseif answer == "go ahead" then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/icanthearyoufroggy/UNCEnvCheck/main/mainscript"), true)()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/icanthearyoufroggy/UNCEnvCheck/main/lua1"), true)()
     end
 end
 
