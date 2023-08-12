@@ -10,9 +10,9 @@ local Bindable = Instance.new("BindableFunction")
 Bindable.OnInvoke = Callback
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "script";
+    Title = "UNC Environment";
     Text = "made by v0id";
-    Duration = "math.huge";
+    Duration = math.huge;
     Button1 = "copy discord name";
     Button2 = "go ahead";
     Icon = nil;
